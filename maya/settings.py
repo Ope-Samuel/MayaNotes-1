@@ -25,11 +25,7 @@ SECRET_KEY = 'django-insecure-r5$ey#7l80sv=o^@2i)%khv&y8yp=3(g^^22g1w=nweny@=@1n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-  "mayanotes-1-production.up.railway.app",
-  "localhost",
-  "127.0.0.1",
-  ]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
